@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 200;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLight.ttf")
+        format("truetype");
+} /* extralight */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 200;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLightItalic.ttf")
+        format("truetype");
+} /* extralight */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Light.ttf")
+        format("truetype");
+} /* light */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 300;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-LightItalic.ttf")
+        format("truetype");
+} /* light */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf")
+        format("truetype");
+} /* normal */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Italic.ttf")
+        format("truetype");
+} /* normal */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf")
+        format("truetype");
+} /* medium */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 500;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-MediumItalic.ttf")
+        format("truetype");
+} /* medium */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf")
+        format("truetype");
+} /* semibold */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 600;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBoldItalic.ttf")
+        format("truetype");
+} /* semibold */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf")
+        format("truetype");
+} /* bold */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 700;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-BoldItalic.ttf")
+        format("truetype");
+} /* bold */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf")
+        format("truetype");
+} /* extrabold */
+
+@font-face {
+    font-family: "PlusJakarta";
+    font-style: italic;
+    font-weight: 800;
+    src: url("/public/font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf")
+        format("truetype");
+} /* extrabold */
+
+@font-face {
+    font-family: "NeueMachina";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/public/font/Neue_Machina/NeueMachina-Light.otf")
+        format("opentype");
+} /* light */
+
+@font-face {
+    font-family: "NeueMachina";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/public/font/Neue_Machina/NeueMachina-Regular.otf")
+        format("opentype");
+} /* normal */
+
+@font-face {
+    font-family: "NeueMachina";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/public/font/Neue_Machina/NeueMachina-Ultrabold.otf")
+        format("opentype");
+} /* extrabold */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+*,
+html {
+    @apply font-PlusJakarta;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #631acb, #379779);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* For Text Editor */
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+.ck-editor__editable a {
+    text-decoration-line: underline;
+}
+
+.ck-editor__editablefigcaption {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #4d4c4c;
+}
+
+.ck-editor__editable ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.ck-editor__editable ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+/* End for Text Editor */
