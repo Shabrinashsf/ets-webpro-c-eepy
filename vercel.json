@@ -14,7 +14,7 @@
   ],
   "env": {
     "APP_NAME": "Laravel",
-    "APP_ENV": "local",
+    "APP_ENV": "production",
     "APP_KEY": "base64:5hcYajJ1yDLFx+4tpV26hpPUbZRL956uZCP4m/REt2k=",
     "APP_DEBUG": "true",
     "APP_URL": "",
