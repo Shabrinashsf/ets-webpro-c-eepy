@@ -1,5 +1,7 @@
 <?php
 
+use function env;
+
 return [
 
     /*
@@ -122,9 +124,4 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
-
-    'providers' => [
-        Laravel\Pail\PailServiceProvider::class,
-    ],
-
 ];

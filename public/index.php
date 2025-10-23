@@ -17,7 +17,4 @@ require __DIR__.'/../vendor/autoload.php';
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-if (class_exists(\Laravel\Pail\PailServiceProvider::class)) {
-    $app->register(\Laravel\Pail\PailServiceProvider::class);
-}
 $app->handleRequest(Request::capture());
