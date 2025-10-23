@@ -64,7 +64,7 @@ class BookingController extends Controller
         }
 
         // Simpan ke database
-        Booking::create([
+        $bookings = Booking::create([
             'name' => $request->name,
             'userid' => Auth::id(),
             'roomid' => $availableRoom->id,
