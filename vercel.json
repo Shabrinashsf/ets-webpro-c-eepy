@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "builds": [
-  {
-    "src": "api/index.php",
-    "use": "@vercel/php",
-    "config": { "installCommand": "composer install --no-dev --optimize-autoloader" }
-  }
-],
   "framework": null,
   "functions": {
     "api/index.php": {
